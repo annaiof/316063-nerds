@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Anna Iofik](https://up.htmlacademy.ru/htmlcss/16/user/316063).
-* Наставник: `Неизвестно`.
+* Наставник: [Николай Маркелов](https://htmlacademy.ru/profile/nicolamarkelov).
 
 ---
 
