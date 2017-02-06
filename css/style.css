@@ -1,22 +1,139 @@
 html{
   font-family: "Roboto";
-}
-h2, h3{
   text-align: left;
-  color: #000000;
 }
-h3{
+h2{
+  color: #000000;
   font-size: 24px;
   line-height: 30px;
   text-transform: uppercase;
 }
-h2{
-  font-size: 55px;
-  line-height: 55px;
-}
-p{
+p, .description-company li{
   font-size: 16px;
   line-height: 24px;
-  text-align: left;
   color: #283136;
+}
+.slider b, .page-name{
+  font-size: 55px;
+  line-height: 55px;
+  color: #000000;
+}
+.page-name{
+  text-align: center;
+}
+.description-company b{
+  font-size: 45px;
+  line-height: 45px;
+  color: #000000;
+}
+span{
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.footer-offer b{
+  font-size: 36px;
+  line-height: 36px;
+  color: #000000;
+}
+form h2, .sort h2{
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+.container{
+  width: 1160px;
+  min-height: 130px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.main-navigation{
+  width: 960px;
+  float: left;
+}
+.user-block{
+  width: 160px;
+  float: right;
+}
+.slider{
+  width: 380px;
+  float: left;
+  margin-right: 55px;
+}
+.slider img{
+  float: left;
+}
+.main-header{
+  margin-bottom: 80px;
+}
+.product{
+  width: 300px;
+  margin-right: 100px;
+  float: left;
+}
+.product:nth-child(3){
+  margin-right: 0;
+}
+.description-company{
+  width: 660px;
+  float: left;
+}
+.about-percentage{
+  width: 360px;
+  float: right;
+}
+.sites img{
+  width: 260px;
+  float: left;
+  margin-right: 40px;
+}
+.sites img:nth-child(4){
+  margin-right: 0;
+}
+.map{
+  background: url(img/map.png);
+}
+.contacts{
+  width: 320px;
+  float: left;
+  padding: 50px;
+}
+.footer-social{
+  width: 260px;
+  float: left;
+  margin-right: 140px;
+}
+.footer-offer{
+  width: 560px;
+  float: left;
+}
+form{
+  width: 260px;
+  float: left;
+  margin-right: 140px;
+}
+.catalog{
+  width: 760px;
+  float: right;
+}
+.product{
+  width: 360px;
+  float: left;
+  margin-right: 40px;
+}
+.product:nth-child(2n){
+  margin-right: 0;
+}
+.sort-how{
+  width: 360px;
+  float: right;
 }
