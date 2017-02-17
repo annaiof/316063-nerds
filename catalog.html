@@ -21,8 +21,8 @@
               <li>
                 <a href="#">клиенты</a>
               </li>
-              <li>
-                <a class="active" href="catalog.html">магазин</a>
+              <li class="active">
+                <a>магазин</a>
               </li>
               <li>
                 <a href="#">контакты</a>
@@ -41,26 +41,46 @@
         <form action="https://echo.htmlacademy.ru" method="get">
           <section class="price">
             <h2>Стоимость:</h2>
-            <input type="range">
-            <label>от</label>
-            <input type="text">
-            <label>до</label>
-            <input type="text">
+            <div class="filter-range">
+              <div class="range-controls">
+                <div class="scale">
+                  <div class="bar" style="width: 70%">
+                  </div>
+                </div>
+                <div class="toggle toggle-min">
+                </div>
+                <div class="toggle toggle-max">
+                </div>
+              </div>
+              <div class="price-controls">
+                <label class="min-price">от<input name="min-price" type="text" value="0"></label>
+                <label class="max-price">до<input name="max-price" type="text" value="15 000"></label>
+              </div>
+            </div>
           </section>
           <section class="grid">
             <h2>Сетка:</h2>
             <ul>
               <li>
-                <input type="radio" name="grid" value="adaptive" id="adaptive" checked>
-                <label for="adaptive">Адаптивная</label>
+                <label class="grid-radio">
+                  <input type="radio" name="adaptive">
+                  <span class="radio-indicator"></span>
+                  Адаптивная
+                </label>
               </li>
               <li>
-                <input type="radio" name="grid" value="fixed" id="fixed">
-                <label for="fixed">Фиксированная</label>
+                <label class="grid-radio">
+                  <input type="radio" name="fixed">
+                  <span class="radio-indicator"></span>
+                  Фиксированная
+                </label>
               </li>
               <li>
-                <input type="radio" name="grid" value="rubber" id="rubber">
-                <label for="rubber">Резиновая</label>
+                <label class="grid-radio">
+                  <input type="radio" name="rubber">
+                  <span class="radio-indicator"></span>
+                  Резиновая
+                </label>
               </li>
             </ul>
           </section>
@@ -68,28 +88,43 @@
             <h2>Особенности:</h2>
             <ul>
               <li>
-                <input type="checkbox" name="features" value="slider" id="slider" checked>
-                <label for="slider">Слайдер</label>
+                <label class="features-checkbox">
+                  <input type="checkbox" name="slider">
+                  <span class="checkbox-indicator"></span>
+                  Слайдер
+                </label>
               </li>
               <li>
-                <input type="checkbox" name="features" value="benefits" id="benefits">
-                <label for="benefits">Блок преимуществ</label>
+                <label class="features-checkbox">
+                  <input type="checkbox" name="benefits">
+                  <span class="checkbox-indicator"></span>
+                  Блок преимуществ
+                </label>
               </li>
               <li>
-                <input type="checkbox" name="features" value="news" id="news" checked>
-                <label for="news">Новости</label>
+                <label class="features-checkbox">
+                  <input type="checkbox" name="news">
+                  <span class="checkbox-indicator"></span>
+                  Новости
+                </label>
               </li>
               <li>
-                <input type="checkbox" name="features" value="gallery" id="gallery">
-                <label for="gallery">Галерея</label>
+                <label class="features-checkbox">
+                  <input type="checkbox" name="gallery">
+                  <span class="checkbox-indicator"></span>
+                  Галерея
+                </label>
               </li>
               <li>
-                <input type="checkbox" name="features" value="cart" id="cart">
-                <label for="cart">Корзина</label>
+                <label class="features-checkbox">
+                  <input type="checkbox" name="cart">
+                  <span class="checkbox-indicator"></span>
+                  Корзина
+                </label>
               </li>
             </ul>
           </section>
-          <button type="submit" class="btn">Показать</button>
+          <button type="submit" class="btn show">Показать</button>
         </form>
       </div>
       <div class="catalog">
@@ -99,8 +134,8 @@
             <a class="active" href="#">По цене</a>
             <a href="#">По типу</a>
             <a href="#">По названию</a>
-            <a href="#" class="sort-arrow sort-arrow-up">по возрастанию</a>
-            <a href="#" class="sort-arrow sort-arrow-down">по убыванию</a>
+            <a href="#" class="sort-arrow sort-arrow-down active">по возрастанию</a>
+            <a href="#" class="sort-arrow sort-arrow-up">по убыванию</a>
           </div>
         </div>
         <div class="catalog-products clearfix">
@@ -162,7 +197,7 @@
       </div>
     </main>
     <footer class="main-footer">
-      <div class="container map clearfix">
+      <div class="map clearfix">
         <div class="contacts">
           <span>Nёrds design studio</span>
           <p>191186, Санкт-Петербург, ул. Б. Конбшенная, д. 19/8<br>
