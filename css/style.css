@@ -176,11 +176,11 @@ body {
     margin-top: 23px;
     padding: 16px 54px;
 }
-.slide .btn:hover{
-  background-color: #e74246;
+.slide .btn:hover {
+    background-color: #e74246;
 }
-.slide .btn:active{
-  background-color: #d7373b;
+.slide .btn:active {
+    background-color: #d7373b;
 }
 .slide:nth-child(1) {
     background: url(../img/slide1.png) no-repeat 430px 10px;
@@ -217,20 +217,20 @@ body {
     vertical-align: top;
     text-align: center;
 }
-.btn-1:hover{
-  background-color: #e74246;
+.btn-1:hover {
+    background-color: #e74246;
 }
 .btn-2 {
     background: #00ca74;
 }
-.btn-2:hover{
-  background-color: #00bc6c;
+.btn-2:hover {
+    background-color: #00bc6c;
 }
 .btn-3 {
     background: #efc849;
 }
-.btn-3:hover{
-  background-color: #eab534;
+.btn-3:hover {
+    background-color: #eab534;
 }
 .activities {
     margin-top: 80px;
@@ -313,7 +313,7 @@ body {
 .about-percentage img {
     padding-bottom: 32px;
 }
-.about-percentage span{
+.about-percentage span {
     padding-left: 16px;
 }
 .about-percentage ul {
@@ -337,30 +337,30 @@ body {
     line-height: 18px;
     color: #283136;
 }
-.about-percentage sup{
-  font-size: 26px;
+.about-percentage sup {
+    font-size: 26px;
 }
 .sites {
     border-top: 2px solid #eeeeee;
     border-bottom: 2px solid #eeeeee;
     margin-bottom: 20px;
 }
-.sites a{
-  width: 278px;
-  height: 52px;
-  float: left;
-  margin-bottom: 65px;
-  margin-top: 65px;
-  border-right: 2px solid #eeeeee;
+.sites a {
+    width: 278px;
+    height: 52px;
+    float: left;
+    margin-bottom: 65px;
+    margin-top: 65px;
+    border-right: 2px solid #eeeeee;
 }
-.sites a:nth-child(2){
-  width: 298px
+.sites a:nth-child(2) {
+    width: 298px
 }
-.sites a:nth-child(3){
-  width: 298px;
+.sites a:nth-child(3) {
+    width: 298px;
 }
-.sites a:last-child{
-  border-right: none;
+.sites a:last-child {
+    border-right: none;
 }
 .sites img {
     opacity: 0.2;
@@ -567,7 +567,8 @@ body {
     content: "";
     position: absolute;
     top: -2px;
-    left: -2px;;
+    left: -2px;
+    ;
     width: 27px;
     height: 23px;
     background-image: url(../img/checkbox-on.png);
@@ -706,7 +707,7 @@ body {
     color: #000000;
     margin-right: 8px;
 }
-.catalog-pagination .active{
+.catalog-pagination .active {
     border: 3px solid #dbdbdb;
     background: #ffffff;
     padding: 13px 17px;
@@ -715,7 +716,7 @@ body {
     padding: 16px 78px;
 }
 .main-footer {
-  position: relative;
+    position: relative;
     margin-top: 60px;
     margin-bottom: 70px;
 }
@@ -806,7 +807,7 @@ body {
     display: none;
     position: absolute;
     top: 1706px;
-bottom: 122px;
+    bottom: 122px;
     left: 50%;
     margin-left: -480px;
     width: 760px;
@@ -862,49 +863,49 @@ bottom: 122px;
     border: 2px solid #d7dcde;
     border-radius: 3px;
 }
- .name{
-  position: relative;
-  padding-top: 30px;
+.name {
+    position: relative;
+    padding-top: 30px;
     width: 360px;
 }
- .mail{
-  position: relative;
-  padding-top: 30px;
-  width: 360px;
-  margin-left: 400px;
-  margin-top: -30px;
+.mail {
+    position: relative;
+    padding-top: 30px;
+    width: 360px;
+    margin-left: 400px;
+    margin-top: -30px;
 }
- .text{
-  position: relative;
-  padding-top: 30px;
+.text {
+    position: relative;
+    padding-top: 30px;
     width: 756px;
     margin-top: 82px;
 }
-.icon-name-label{
-  position: absolute;
-  top: -10px;
+.icon-name-label {
+    position: absolute;
+    top: -10px;
 }
-.icon-mail-label{
-  position: absolute;
-  top: -10px;
+.icon-mail-label {
+    position: absolute;
+    top: -10px;
 }
-.icon-text-label{
-  position: absolute;
-  top: -10px;
+.icon-text-label {
+    position: absolute;
+    top: -10px;
 }
-.icon-name-input{
-  width: 330px;
+.icon-name-input {
+    width: 330px;
 }
-.icon-mail-input{
-  width: 330px;
+.icon-mail-input {
+    width: 330px;
 }
 .icon-text-input {
     width: 726px;
     height: 86px
 }
 .send {
-  margin-top: 152px;
-  margin-bottom: 54px;
+    margin-top: 152px;
+    margin-bottom: 54px;
     border: none;
     width: 260px;
 }
