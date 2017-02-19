@@ -35,7 +35,7 @@ body {
 }
 .main-navigation {
     float: left;
-    width: 486px;
+    width: 490px;
     margin-top: 60px;
 }
 .main-navigation ul {
@@ -56,8 +56,10 @@ body {
     display: block;
     color: #000000;
     text-decoration: none;
-    padding: 15px 23px;
-    padding-bottom: 12px;
+    padding-top: 15px;
+    padding-bottom: 3px;
+    margin-left: 23px;
+    margin-right: 23px;
 }
 .main-navigation a:hover {
     color: #fb565a;
@@ -66,17 +68,7 @@ body {
     opacity: 0.3
 }
 .main-navigation .active {
-    position: relative;
-}
-.main-navigation .active::after {
-    content: "";
-    position: absolute;
-    right: 23px;
-    bottom: 7px;
-    left: 23px;
-    width: 100%;
-    height: 2px;
-    background-color: #fb565a;
+    border-bottom: 2px solid #fb565a;
 }
 .main-navigation .active a:hover {
     color: #000000;
@@ -806,7 +798,6 @@ body {
 .modal-content {
     display: none;
     position: absolute;
-    top: 1706px;
     bottom: 122px;
     left: 50%;
     margin-left: -480px;
