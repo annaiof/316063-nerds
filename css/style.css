@@ -318,7 +318,7 @@ body {
     width: 105px;
     float: left;
     margin-right: 14px;
-    padding-top: 31px;
+    padding-top: 41px;
 }
 .about-percentage li:nth-child(3) {
     margin-right: 0;
@@ -672,7 +672,7 @@ body {
     bottom: 0;
     background-color: #eeeeee;
     width: 100%;
-    height: 232px;
+    min-height: 232px;
     text-align: center;
 }
 .product-description h2 a {
@@ -704,7 +704,7 @@ body {
     background: #ffffff;
     padding: 13px 17px;
 }
-.catalog-pagination .btn:nth-child(4) {
+.catalog-pagination .btn:last-child {
     padding: 16px 78px;
 }
 .main-footer {
@@ -716,13 +716,14 @@ body {
     background: url(../img/map.png);
     background-size: 1440px 418px;
     margin-bottom: 70px;
+    margin-left: -45px;
 }
 .contacts {
-    margin-left: 95px;
+    margin-left: 140px;
     margin-top: 54px;
     margin-bottom: 54px;
     width: 220px;
-    height: 220px;
+    min-height: 220px;
     float: left;
     padding: 50px;
     padding-bottom: 38px;
